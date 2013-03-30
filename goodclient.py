@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 
-"""
-A simple echo client
-"""
-
 import socket
 import fileinput
 

@@ -20,12 +20,11 @@ class Imager(threading.Thread):
 
     def run(self):
 
-      self.w.pack()
-
       self.w.create_line(0, 0, 200, 100)
       self.w.create_line(0, 100, 200, 0, fill="red", dash=(4, 4))
 
       self.w.create_text(100,50,text="Dale", tags="test")
+      self.w.pack()
 
       self.master.mainloop()
 
